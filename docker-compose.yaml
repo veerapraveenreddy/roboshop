@@ -29,7 +29,7 @@ services:
       - mongodb
       - redis
   cart:
-    image: cart
+    image: cart:v1
     container_name: cart
     depends_on:
       - redis
