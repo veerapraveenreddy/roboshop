@@ -12,7 +12,7 @@ services:
     - catalogue
     - user
     - cart
-  mongodb:
+  mongo:
     image: mongodb:v1
     container_name: mongodb
   catalogue:
