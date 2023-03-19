@@ -43,8 +43,7 @@ services:
     depends_on:
     - mysql
   rabbitmq:
-    image: rabbitmq:latest
-    container_name: rabbitmq
+    image: rabbitmq
   payment:
     image: payment:v1
     container_name: payment
